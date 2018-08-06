@@ -1,0 +1,23 @@
+create a folder
+
+enter
+
+git init
+
+To checxk the branch
+
+git branch // shows all branches including your local branch
+
+create a clone of remote master repository
+office:
+>> git clone <sshurl> //take a copy of remote repository (only one time for a project)
+>> git checkout -b  <local_branchname> <masterbranch_name> //Create a local branch to work --> always do when start a new work
+>> do your code
+>> git status // to check new file added/modified
+>> git diff <filename> // show the changes in a file
+>> git add <filename> // to stage the files for commit
+>> git commit -m "message"    // commit/finalize all changes in all files
+>> git push    // push local changes/commit to remote repository
+>> git push -u origin <newlocal_branchname> //only first time push to create reomote repository
+
+>> git checkout <branch_name> // to move to another branch
